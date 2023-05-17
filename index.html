@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyrel's Website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- BOX Icons -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="#" class="logo">Cyrel</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+
+        <!-- Menu -->
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+            <li><a href="#Goal" onclick="toggleMenu();">Goal</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Main Home Text And Image -->
+    <section id="home">
+        <div class="home-text">
+            <h1>Hy, I'm <br>Cyrel <span>Madjos</span> <br>IT Student</h1>
+            <!-- Button -->
+            <a href="#contact">HERMES</a>
+        </div>
+        <!-- Home Image -->
+        <div class="home-img">
+            <img src="images/profile.png" alt="">
+        </div>
+
+        <!-- Social -->
+        <div class="social">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter' ></i>
+            <i class='bx bxl-github' ></i>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="heading">
+            <h2>About</h2>
+            <p>My Introduction</p>
+        </div>
+        <div class="about-content">
+        <!-- About Image -->
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+        <!-- About Text -->
+        <div class="about-text">
+            <h1>I'm Cyrel</h1>
+            <p>Meet Cyrel, a talented and passionate basketball player who brings their unique skills and dedication to the game. With a love for basketball, Cyrel has embraced the sport and continuously strives to improve their abilities both on and off the court..</p>
+            <a href="#">Play With Us</a>
+        </div>
+    </div>
+    </section>
+
+    <!-- Services -->
+    <section id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <p>Skills we offer</p>
+        </div>
+        <div class="services-content">
+            <!-- Boxes -->
+            <div class="box">
+                <img src="images/html.png" alt="">
+                <h1></h1>
+                <p>Cyrel's journey as a basketball player began with a deep appreciation for the game. From a young age, they discovered a natural talent and an unwavering enthusiasm for the sport. This passion fuels their drive to excel and pushes them to new heights in their basketball career.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/css-3.png" alt="">
+                <h1></h1>
+                <p>As a player, Cyrel possesses a diverse set of skills that make them a formidable presence on the court.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/js.jpg" alt="">
+                <h1></h1>
+                <p>Cyrel's ball-handling skills are exceptional. They possess the ability to maneuver through defenders, create opportunities for teammates, and maintain control of the ball in high-pressure situations.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/ux.png" alt="">
+                <h1></h1>
+                <p>Defensively, Cyrel is a tenacious player who consistently gives their all to disrupt opposing offenses.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/wordpress.png" alt="">
+                <h1></h1>
+                <p>What sets Cyrel apart is their understanding of the game and their ability to make smart decisions under pressure.</p>
+            </div>
+
+            <div class="box">
+                <img src="images/prototype.png" alt="">
+                <h1></h1>
+                <p>Intelligence on the court enables Cyrel to be an effective leader and a reliable teammate.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section id="Goal">
+        <div class="heading work-heading">
+            <h2>Goal</h2>
+            <p>Work as teamate not for one</p>
+        </div>
+        <div class="work-content">
+            <div class="work-text">
+                <h1>The mindset in basketball plays a crucial role in a player's performance and overall success. <br> Achievement</h1>
+                <p>Developing and nurturing a strong mindset is an ongoing process. It requires self-awareness, intentional practice, and a commitment to personal growth. A positive and effective mindset in basketball not only enhances individual performance but also contributes to the overall success and enjoyment of the game.</p>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="work-img">
+                <img src="images/work.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="heading color">
+            <h2>Contact</h2>
+            <p>Leave a message we will try to reply in 24 hours.</p>
+        </div>
+        <div class="contact-content">
+            <div class="app">
+                <h1>Connect With Us <br> By Our Apps </h1>
+               <a href="#"><i class='bx bxl-play-store' ></a></i>
+                <a href="#"><i class='bx bxl-apple' ></a></i>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Your E-mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here..."></textarea>
+                    <input type="button" value="Send" class="contact-button">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>&#169; 2023 bunny All Right Reserves</p>
+    </div>
+
+
+
+
+    <!-- Scroll Animation -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link To JS -->
+    <script src="main.js"></script>
+</body>
+</html>
